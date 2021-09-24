@@ -5,12 +5,13 @@ import { render } from 'react-dom';
 import Person from './Person/Person.js';
 class App extends Component {
   render(){
-
-  
-    return (
+   return (
        <div className="App">
         <h1>Jai Shree Ram</h1>
         <p> hara hara mahadev</p>
+        <Person></Person>
+        <Person></Person>
+        <Person></Person>
         <Person></Person>
       </div>
      
